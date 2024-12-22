@@ -1,0 +1,69 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-header {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .home-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .home-header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .home-button:hover {
+    background-color: #003f7f;
+  }
+  
+  .home-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-card h2 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .home-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-card {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
